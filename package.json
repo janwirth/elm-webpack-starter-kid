@@ -1,0 +1,25 @@
+{
+  "name": "elm-webpack-starter-kid",
+  "version": "0.0.1",
+  "description": "Elm webpack starter boilerplate",
+  "main": " ",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FranzSkuffka/elm-webpack-starter-kid.git"
+  },
+  "keywords": [
+    "elm",
+    "webpack",
+    "starter",
+    "boilerplate"
+  ],
+  "author": "Jan Wirth <contact@jan-wirth.de>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FranzSkuffka/elm-webpack-starter-kid/issues"
+  },
+  "homepage": "https://github.com/FranzSkuffka/elm-webpack-starter-kid#readme"
+}
