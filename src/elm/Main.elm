@@ -12,13 +12,16 @@ main =
   Html.beginnerProgram { model = model, view = view, update = update }
 
 model : Model
-model = 0
+model = {
+      url = "http://localhost:8080"
+    , widths = [ "300", "500", "1200"]
+  }
 
 update : Msg -> Model -> Model
 update msg model =
   case msg of
-    NoOp -> model
-    Increment -> model + 1
+    UpdateUrl newUrl -> { model | url = newUrl }
+    UpdateWidths inputValue -> { model | widths = String.words inputValue }
 
 -- CSS STYLES
 styles : { img : List ( String, String ) }
