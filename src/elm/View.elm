@@ -9,6 +9,9 @@ import Msg exposing ( Msg(..) )
 -- Html is defined as: elem [ attribs ][ children ]
 -- CSS can be applied via class names or inline style attrib
 view : Model -> Html Msg
-view model =
-  button [onClick Increment] [ text ("Add 1 to " ++ toString model) ]
+view model = div [] [
+    button [onClick Increment] [ text ("Add 1 to " ++ toString model) ]
+  , button [onClick Decrement] [ text ("Subtract 1 from " ++ toString model) ]
+  ]
+  
 

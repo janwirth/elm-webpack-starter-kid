@@ -19,13 +19,4 @@ update msg model =
   case msg of
     NoOp -> model
     Increment -> model + 1
-
--- CSS STYLES
-styles : { img : List ( String, String ) }
-styles =
-  {
-    img =
-      [ ( "width", "33%" )
-      , ( "border", "4px solid #337AB7")
-      ]
-  }
+    Decrement -> model - 1

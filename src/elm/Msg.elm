@@ -1,5 +1,5 @@
 module Msg exposing ( Msg(..) )
 
 -- UPDATE
-type Msg = NoOp | Increment
+type Msg = NoOp | Increment | Decrement
 
