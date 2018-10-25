@@ -1,3 +1,5 @@
+# deprecated in favor of create-elm-app
+
 ## elm-webpack-starter-kid
 
 A very very basic elm 0.18 and webpack 4 boilerplate
